@@ -13,6 +13,14 @@ currency, and then the amount you want to convert. The app checks the input,
 sends a request to the API, and then shows the converted amount together
 with the live exchange rate used. Using the API offered by https://freecurrencyapi.com/.
 
+## Features
+
+- Converting a base currency to a destination currency
+- Input validation for 3-letter ISO currency codes + positive amounts
+- Live exchange rates fetched from https://freecurrencyapi.com/
+- Loading indicator while fetching for exchange rates
+- About screen displaying full name, student ID, and app description
+
 ## How to run
 
 1. npm install
