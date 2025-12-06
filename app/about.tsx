@@ -12,7 +12,7 @@ const AboutScreen: React.FC = () => {
       <Text style={styles.heading}>About the App</Text>
       <Text style={styles.bodyText}>
         This app allows the user to convert X amount of any currency into another
-        currency using live exchange rates from https://freecurrencyapi.com/
+        currency using live exchange rates from https://freecurrencyapi.com/.
       </Text>
       <Text style={styles.bodyText}>
         You can enter a base currency (Ex.  CAD or USD), followed by a destination
