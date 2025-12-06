@@ -8,7 +8,7 @@ import {
   View,
 } from 'react-native';
 
-type Props = {
+type LabeledInputProps = {
   label: string;
   value: string;
   onChangeText: (text: string) => void;
@@ -17,7 +17,7 @@ type Props = {
   autoCapitalize?: 'none' | 'sentences' | 'words' | 'characters';
 };
 
-const LabeledInput: React.FC<Props> = ({
+const LabeledInput: React.FC<LabeledInputProps> = ({
   label,
   value,
   onChangeText,
