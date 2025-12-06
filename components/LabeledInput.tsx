@@ -1,10 +1,11 @@
+// Reusable labeled input component for the currency converter and amount input fields
 import React from 'react';
 import {
-    KeyboardTypeOptions,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  KeyboardTypeOptions,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from 'react-native';
 
 type Props = {
