@@ -21,6 +21,11 @@ with the live exchange rate used. Using the API offered by https://freecurrencya
 - Loading indicator while fetching for exchange rates
 - About screen displaying full name, student ID, and app description
 
+### Error Handling
+
+This app shows error messages for invalid inputs, too many requests, invalid API key responses, 
+and unsupported destination currencies returned from the API.
+
 ## How to run
 
 1. npm install
