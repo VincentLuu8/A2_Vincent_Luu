@@ -122,7 +122,7 @@ const MainScreen: React.FC = () => {
     >
       <ScrollView contentContainerStyle={styles.scrollContent}>
         <View style={styles.container}>
-          <Text style={styles.title}>Currency Conversion Tool</Text>
+          <Text style={styles.title}>Check Live Currency Rates</Text>
           <Text style={styles.subtitle}>
             Choose some currencies, enter X amount, and press Convert.
           </Text>
