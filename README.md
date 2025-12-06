@@ -1,5 +1,9 @@
 # Assignment 2 COMP3074 - Currency Conversion Tool
 
+Vincent Luu
+StudentID: 101239401
+COMP3074
+
 This is assignment 2 for COMP3074 - Mobile Application Development where I created
 a currency conversion tool, which is built with Expo and React Native and uses a
 simple stack navigation setup with a main screen and about screen.
