@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
     shadowRadius: 6,
     shadowOffset: { width: 0, height: 2 },
     elevation: 3,
-    marginTop: 16,
+    marginTop: 20,
   },
   title: {
     fontSize: 22,
@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
   subtitle: {
     fontSize: 14,
     textAlign: 'center',
-    marginTop: 4,
+    marginTop: 6,
     color: '#555',
   },
   buttonRow: {
