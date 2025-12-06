@@ -1,15 +1,15 @@
 import { Link } from 'expo-router';
 import React, { useState } from 'react';
 import {
-    ActivityIndicator,
-    Button,
-    KeyboardAvoidingView,
-    Platform,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  ActivityIndicator,
+  Button,
+  KeyboardAvoidingView,
+  Platform,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 import LabeledInput from '../components/LabeledInput';
 
@@ -30,6 +30,7 @@ const MainScreen: React.FC = () => {
     setExchangeRate(null);
   };
 
+// This function checks that the currency codes and amount are in the correct format first before calling the API
   const validateInputs = () => {
     const codeRegex = /^[A-Z]{3}$/;
 
