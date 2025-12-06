@@ -62,6 +62,8 @@ const MainScreen: React.FC = () => {
     return true;
   };
 
+
+// This function does the currency conversion by calling the external API, basic error handling, and updates the UI accordingly
   const handleConvert = async () => {
     setErrorMessage('');
     resetOutput();
